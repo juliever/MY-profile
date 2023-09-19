@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+
+.subcontainer{
+    display: grid;
+    grid-template-columns: 1.5fr 4fr;   
+    justify-items: center;
+    align-items: center;  
+    text-align: center;
+}   
+
+.columndesign{
+    background-color: #262626;
+}
+
+.imagedesign{
+    width: 200px;
+    height: 200px;
+    border-radius: 3cm;
+    padding: 10px;
+}
+
+.color{
+    color: white;
+}
+
+.natoy{
+    color: dimgray;
+}
+
+.bogart{
+    color: white;
+}
+
+.geng{
+    color: dimgray;
+    text-align: start;
+    padding-left: 30px ;
+    padding-top: 8px;
+    padding-right: 30px;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 270%;
+    color: #262626;
+}
+
+.objective{
+    color: #262626;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+hr{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid #262626 ;
+}
+
+.bullet{
+    text-align: start;
+    color: #262626;
+    margin-left: 100px;
+}
+
+.job{
+    text-align: start;
+    padding-left: 100px;
+}
